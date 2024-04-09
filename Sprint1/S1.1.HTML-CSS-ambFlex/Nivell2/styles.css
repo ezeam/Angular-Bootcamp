@@ -3,7 +3,7 @@
   padding: 10px;
   box-sizing: border-box;   
 }
-.padre{  
+.madre{  
   max-width: 1200px;
   display: flex;
   flex-flow: column nowrap;
@@ -74,7 +74,7 @@
 
 
 @media all and (max-width: 800px){
-  .padre{
+  .madre{
     background: #891652;
   }
     .section{
@@ -95,7 +95,7 @@
       }
 }
 @media all and (max-width: 600px){
-  .padre{
+  .madre{
     background: #7F9F80;
   }
     .articulos{

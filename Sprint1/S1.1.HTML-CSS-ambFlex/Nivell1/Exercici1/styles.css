@@ -3,7 +3,7 @@
   padding: 10px;
   box-sizing: border-box;   
 }
-.padre{
+.madre{
   max-width: 1200px;
   display: flex;
   flex-flow: column nowrap;
