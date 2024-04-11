@@ -1,0 +1,32 @@
+body {
+  background: white;
+}
+
+#btnLogin {
+  background: #FA5959;
+}
+
+#btnChrome {
+  background: #5265E1;
+  color: white;
+}
+
+#btnFirefox {
+  background: rgb(244, 243, 243);
+  color: black;
+}
+
+#containerPrincipal {
+  margin-top: 200px;
+}
+
+.nav-item {
+  padding-left: 50px;
+}
+
+#containerNavLogo {
+  margin-left: 300px;
+  margin-right: 400px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,28 @@
+$color-principal: #5265E1;
+$color-secundario: #FA5959;
+
+body{
+  background:white;
+}
+#btnLogin {
+  background: $color-secundario;
+}
+#btnChrome {
+  background: $color-principal;
+  color: white;
+}
+#btnFirefox{
+  background: rgb(244, 243, 243);
+  color: black;
+}
+
+#containerPrincipal{
+  margin-top: 200px;
+}
+.nav-item{
+  padding-left: 50px; 
+}
+#containerNavLogo{
+  margin-left: 300px;
+  margin-right: 400px;  
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kata Email Checker</title>
+</head>
+<body>
+  <p>Farem una crida a una API per validar emails.
+    Farem un html amb un input, volem que ens digui toda la info que tenim d'aquest email per pantalla.
+  </p>
+  <input type="email">
+  
+  <script>
+    const requestOptions = {
+      method: "GET",
+      redirect: "follow"
+    };
+
+    fetch("https://emailrep.io/ester.zea.maldonado@gmail.com", requestOptions)
+    .then((response) => response.text())
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error));
+  </script>
+</body>
+</html>
+
+<!--El codigo del script es una peticion (get). Despues hay que guardar la respuesta de esta peticion de api y mostrarla por pantalla.
+Lo he hecho con Postamen, está instalado en el pc  -->
